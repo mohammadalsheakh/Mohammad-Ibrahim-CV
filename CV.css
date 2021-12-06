@@ -1,0 +1,383 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 1700px;
+    background-color: lightblue;
+}
+
+#left{
+    width: 35%;
+    background-color: rgb(5, 5, 75);
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: blue solid 1px;
+    box-shadow: 2px 2px 50px rgb(0,0,0,.5);
+    margin: 10px; 
+    position: fixed;
+    z-index: -1;
+}
+#right{
+    width: 65%;
+    background-color: #fff;
+    float: right;
+    border: blue solid 1px;
+    box-shadow: 2px 2px 50px rgb(0,0,0,.5);
+    margin-top: 10px;
+}
+#mohammad_info{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(5, 5, 75) !important;
+    margin-top: 30px;
+    
+}
+#mohammad_info img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#mohammad_info h5,p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+#mohammad_info p{
+    border-bottom: solid white 1px;
+}
+.contactme{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#contant_me h4{
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+#contant_me h5{
+    font-size: 20px;
+    color: white;
+}
+
+#contant_me span{
+    padding: 10px;
+}
+#contact{
+    background-color: rgb(5, 5, 75) !important;
+}
+#contant_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#here{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: solid white 1px;
+}
+
+#languages p{
+    color: white;
+}
+#languages div{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#languages{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#right{
+    padding-left: 20px;
+}
+#personal_statment{
+    margin-top: 10px;
+}
+#personal_statment h2,p{
+    color: black;
+}
+#education{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#education div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#education h2{
+    color: blue;
+    font-size: 20px;
+}
+#education h4{
+    color: black;
+    font-size: 15px;
+}
+
+
+#personal_skills{
+    margin-top: 25px;
+
+}
+#personal_skills h2{
+    color: blue;
+    font-size: 20px;
+}
+#personal_skills h4{
+    color: black;
+    font-size: 15px;
+}
+#myskills{
+    padding: 10px;
+}
+.rate{
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    max-width: 400px;
+}
+#html{
+    width: 90%;
+    height: 5px;
+    background-color: blue;
+}
+#css{
+    width: 95%;
+    height: 5px;
+    background-color: blue;
+}
+#JS{
+    width: 90%;
+    height: 5px;
+    background-color: blue;
+}
+#bot{
+    width: 80%;
+    height: 5px;
+    background-color: blue;
+}
+#react{
+    width: 80%;
+    height: 5px;
+    background-color: blue;
+}
+#csharp{
+    width: 65%;
+    height: 5px;
+    background-color: blue;
+}
+#sql{
+    width: 70%;
+    height: 5px;
+    background-color: blue;
+}
+#git{
+    width: 95%;
+    height: 5px;
+    background-color: blue;
+}
+#oop{
+    width: 90%;
+    height: 5px;
+    background-color: blue;
+}
+#other{
+    margin-top: 20px;
+}
+#projects{
+    margin-top: 20px;
+}
+#projects h2{
+    color: blue;
+    font-size: 20px;
+}
+#projects h4{
+    color: black;
+    font-size: 15px;
+}
+#webprojects a {
+    text-decoration: none;
+}
+.webimages{
+    width: 20px;
+    height: 20px;
+}
+#resturant img{
+    max-width: 240px;
+    height: 150px;
+}
+.proj{
+    width: 250px;
+    margin: 10px;
+    border: solid blue 1px;
+}
+.proj h4{
+    text-align: center;
+    margin: 5px;
+}
+#webprojects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#music img{
+    width: 240px;
+    height: 150px;
+    object-fit: cover;
+}
+#webprojects img{
+    max-width: 240px;
+    height: 150px;
+}
+#languages{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#languages h2{
+    color: blue;
+    font-size: 20px;
+}
+#languages h4{
+    color: black;
+    font-size: 15px;
+}
+#languages div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#certificates{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#certificates h2{
+    color: blue;
+    font-size: 20px;
+}
+#certificates a{
+    color: green;
+    font-size: 15px;
+}
+#music img{
+    width: 240px;
+    height: 150px;
+    object-fit: cover;
+}
+#webprojects img{
+    max-width: 240px;
+    height: 150px;
+}
+#othersertificate{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#othersertificate h2{
+    color: blue;
+    font-size: 20px;
+}
+#othersertificate h4{
+    color: black;
+    font-size: 15px;
+}
+#othersertificate div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#additional{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#additional h2{
+    color: blue;
+    font-size: 20px;
+}
+#additional h4{
+    color: black;
+    font-size: 15px;
+}
+#additional div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#skills{
+    width: 80%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#skills h2{
+    color: blue;
+    font-size: 20px;
+}
+#skills h4{
+    color: black;
+    font-size: 15px;
+}
+#skills div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+@media only screen and (max-width:750px){
+    #left{
+        float: none;
+        width: 100%;
+        z-index: 0;
+        position: relative;
+        margin: 0px;
+    }
+    #contant_me h4{
+        font-size: 15px;
+    }
+    #right{
+        float: none;
+        width: 100%;
+        margin: 0px;
+    }
+    #skills{
+        width: 100%;
+    }
+    #skills div{
+        justify-content: space-between;
+    }
+}
