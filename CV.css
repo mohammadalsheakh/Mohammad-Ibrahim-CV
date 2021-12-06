@@ -381,3 +381,26 @@ body{
         justify-content: space-between;
     }
 }
+@media only screen and (max-height:450px){
+    #left{
+        float: none;
+        width: 100%;
+        z-index: 0;
+        position: relative;
+        margin: 0px;
+    }
+    #contant_me h4{
+        font-size: 15px;
+    }
+    #right{
+        float: none;
+        width: 100%;
+        margin: 0px;
+    }
+    #skills{
+        width: 100%;
+    }
+    #skills div{
+        justify-content: space-between;
+    }
+}
