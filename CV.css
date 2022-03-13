@@ -160,6 +160,21 @@ body{
     background-color: gray;
     max-width: 400px;
 }
+#sele{
+    width: 65%;
+    height: 5px;
+    background-color: blue;
+}
+#cypress{
+    width: 90%;
+    height: 5px;
+    background-color: blue;
+}
+#testrail{
+    width: 80%;
+    height: 5px;
+    background-color: blue;
+}
 #html{
     width: 90%;
     height: 5px;
